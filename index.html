@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>apology.js 🤍</title>
+<style>
+:root{color-scheme:dark;--bg:#0d1117;--panel:#111827;--line:#263244;--text:#d7e0ed;--muted:#718096;--blue:#79c0ff;--pink:#ffa7b6;--green:#7ee0b5;--purple:#d2a8ff}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#172338 0%,var(--bg) 55%);color:var(--text);font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;min-height:100vh;display:grid;place-items:center;padding:20px}
+.window{width:min(850px,100%);border:1px solid #293548;border-radius:14px;overflow:hidden;background:rgba(13,17,23,.96);box-shadow:0 25px 90px #0008}
+.top{height:48px;background:#151c28;border-bottom:1px solid var(--line);display:flex;align-items:center;padding:0 16px;gap:9px;color:#9aa9bc;font-size:12px}.dot{width:10px;height:10px;border-radius:50%;background:#f7768e}.dot:nth-child(2){background:#e0af68}.dot:nth-child(3){background:#9ece6a}.filename{margin-left:12px;color:#dbe7f5}.tab{padding:15px 20px 12px;border-bottom:1px solid var(--line);color:var(--blue);font-size:14px;background:#0d1117}
+.editor{padding:24px 22px 30px;overflow-x:auto;font-size:clamp(12px,2.2vw,15px);line-height:1.9}.line{display:grid;grid-template-columns:34px minmax(max-content,1fr);gap:16px;white-space:pre}.num{color:#59677b;text-align:right;user-select:none}.kw{color:var(--purple)}.name{color:var(--blue)}.str{color:var(--pink)}.bool{color:#ffb86c}.comment{color:var(--green)}.indent{padding-left:28px}.blank{height:12px}
+.footer{border-top:1px solid var(--line);background:#111827;padding:13px 18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;color:#8190a5;font-size:11px}.heart{color:#ffa7b6}.note{padding:0 24px 24px;color:#9ba9bb;font:13px/1.7 system-ui,sans-serif}.note strong{color:#f3c9d1;font-weight:600}
+</style>
+</head>
+<body>
+<main class="window" aria-label="Pesan permintaan maaf dalam tampilan editor kode">
+  <div class="top"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="filename">Rena / apology.js</span></div>
+  <div class="tab">JS &nbsp; apology.js</div>
+  <section class="editor">
+    <div class="line"><span class="num">1</span><span><span class="kw">const</span> <span class="name">aku</span> = <span class="str">"aku"</span>;</span></div>
+    <div class="line"><span class="num">2</span><span><span class="kw">const</span> <span class="name">rena</span> = <span class="str">"Rena"</span>;</span></div>
+    <div class="blank"></div>
+    <div class="line"><span class="num">3</span><span><span class="kw">let</span> <span class="name">akuBersalah</span> = <span class="bool">true</span>;</span></div>
+    <div class="line"><span class="num">4</span><span><span class="kw">let</span> <span class="name">akuBikinSedih</span> = <span class="bool">true</span>;</span></div>
+    <div class="line"><span class="num">5</span><span><span class="kw">let</span> <span class="name">renaMemaafkan</span> = <span class="bool">false</span>;</span></div>
+    <div class="blank"></div>
+    <div class="line"><span class="num">6</span><span><span class="kw">if</span> (<span class="name">akuBersalah</span>) {</span></div>
+    <div class="line"><span class="num">7</span><span class="indent"><span class="name">console</span>.log(<span class="str">"maaf untuk Rena."</span>);</span></div>
+    <div class="line"><span class="num">8</span><span class="indent"><span class="name">console</span>.log(<span class="str">"maaf, kata-kata yang bikin kamu sakit justru keluar dari mulut aku."</span>);</span></div>
+    <div class="line"><span class="num">9</span><span>}</span></div>
+    <div class="blank"></div>
+    <div class="line"><span class="num">10</span><span><span class="kw">if</span> (<span class="name">akuBikinSedih</span>) {</span></div>
+    <div class="line"><span class="num">11</span><span class="indent"><span class="name">console</span>.log(<span class="str">"Aku sadar aku salah."</span>);</span></div>
+    <div class="line"><span class="num">12</span><span class="indent"><span class="name">console</span>.log(<span class="str">"Maaf karena sudah bikin Rena kecewa."</span>);</span></div>
+    <div class="line"><span class="num">13</span><span>}</span></div>
+    <div class="blank"></div>
+    <div class="line"><span class="num">14</span><span><span class="kw">if</span> (<span class="name">renaMemaafkan</span>) {</span></div>
+    <div class="line"><span class="num">15</span><span class="indent"><span class="name">console</span>.log(<span class="str">"Aku tidak akan pernah berharap Rena memaafkan aku."</span>);</span></div>
+    <div class="line"><span class="num">16</span><span>} <span class="kw">else</span> {</span></div>
+    <div class="line"><span class="num">17</span><span class="indent"><span class="name">console</span>.log(<span class="str">"sowryyy and love u, Rena 🤍."</span>);</span></div>
+    <div class="line"><span class="num">18</span><span class="indent"><span class="name">console</span>.log(<span class="str">"seribu milyar juta maaf buat Rena"</span>);</span></div>
+    <div class="line"><span class="num">19</span><span>}</span></div>
+  </section>
+  <div class="footer"><span>● JavaScript</span><span>UTF-8 &nbsp; | &nbsp; apology.js</span><span class="heart">made with 🤍</span></div>
+  <div class="note"><strong>buat Rena 🤍</strong><br>Kalau aku bisa mengulang waktu, aku akan lebih hati-hati menjaga perasaanmu dan kata-kataku.</div>
+</main>
+</body>
+</html>
